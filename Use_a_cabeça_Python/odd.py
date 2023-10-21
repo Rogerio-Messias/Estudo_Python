@@ -12,5 +12,5 @@ for i in range(5):
     else:
         print("Not an odd minute.")
     wait_time = random.randint(1,60)
-    print("O intervalo atual e de "); print(wait_time); print("segundos")
+    print("O intervalo atual e de ", wait_time, "segundos")
     time.sleep(wait_time)
